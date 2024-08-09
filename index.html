@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6140ec237d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6140ec237d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Includes/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="Includes/bootstrap/js/bootstrap.min.js"></script>
+    <title>Sistema de Gestão Escola - Josmatec</title>
+</head>
+<body>
+
+    <section class="section-main section-fluid">
+        <div class="inform-fild">
+            <div class="wellcome-text">
+                <h3>ANO 2024/2025</h3>
+                <h2>SGE-JOSMATEC ESCOLAS</h2>
+            </div>
+            <div class="bemVindo">
+                <h1 class="p-2">Seja Bem-vindo</h1>
+
+                <ul>
+                    <li>Acompanhe suas notas e desempenho.</li>
+                    <li>Receba comunicados e mensagens importantes</li>
+                    <li>Crie seu plano de estudos personalizado</li>
+                </ul>
+            </div>
+
+            <span>Este aplicativo foi criado pela Josmatec, Eng. felix Mário</span>
+        </div>
+
+        <div class="imagem"></div>
+    
+        <form class="form" action="verificar.php" method="POST">
+            <div class="login-section">
+                
+                <div class="text-fild">
+                    <div class="label-item">
+                        <i class="fa fa-user " aria-hidden="true"></i>
+                        <label for="usuario">Usuario</label>
+                    </div>
+                    
+                    <input class="form-fild" type="text" name="usuario" id="usuario" placeholder="Usuario..." autocomplete="off">
+                    <div class="label-item">
+                        <i class="fa fa-unlock " aria-hidden="true"></i>
+                        <label for="senha">Senha</label>
+                    </div>
+                    
+                    <input class="form-fild" type="password" name="senha" id="senha" placeholder="Senha..." autocomplete="off">
+                </div>
+                <div class="btn-fild">
+                    <input class="btn btn-primary" type="submit" value="Entrar">
+                    <span>Esqueceu a <a href="">palavra passe!</a></span>
+                    
+                </div>
+            </div>
+        </form>
+
+    </section>
+
+    <script src="Includes/JSGeral/jquery.js" defer></script>
+</body>
+</html>

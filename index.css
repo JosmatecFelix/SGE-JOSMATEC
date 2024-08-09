@@ -1,0 +1,110 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.section-main{
+    display: flex;
+}
+
+/*Texto de boas vinda*/
+.inform-fild {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 50vw;
+    height: 100vh;
+    border-right: 5px solid rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right, rgb(201, 214, 255), rgb(226, 226, 226));
+    justify-content: space-evenly;
+}
+
+/*Imagem da capa*/
+.imagem{
+    background-image: url(Imagens/agrupamento.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50vw;
+    height: 100vh;
+}
+
+.wellcome-text{
+    font-size: medium;
+}
+
+/*form*/
+form.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+form .login-section{
+    background: linear-gradient(to right, rgba(102, 125, 182, 0.7), rgba(0, 130, 200, 0.7), rgba(0, 130, 200, 0.7), rgba(102, 125, 182, 0.7));
+    
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px black;
+}
+
+.login-section .text-fild {
+    padding: 5px 0;
+    font-size: 1.2rem;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-section .text-fild input{
+    width: 100%;
+    padding: 3px;
+    margin: 4px 0;
+    border: 0;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    outline: 0;
+    font-size: large;
+}
+
+.login-section .text-fild label{
+    text-transform: uppercase;
+    font-weight: 600; 
+    margin: 10px 0 0 0;   
+}
+
+.login-section .text-fild i{
+    font-size: 1.6rem;
+    padding: 0 5px;
+}
+
+.btn-fild{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-fild input{
+    width: 100%;
+}
+
+
+.btn-fild span, a{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: antiquewhite;
+    margin-top: 12px;
+
+}
+
